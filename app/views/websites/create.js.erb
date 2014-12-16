@@ -1,0 +1,4 @@
+$('#website_site_url').val('');
+<% unless @website.errors.any? %>
+  $('#list-websites').prepend("<p><%= @website.site_url %></p>")
+<% end %>

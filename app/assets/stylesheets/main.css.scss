@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "proxima-nova";
+  src: url('/assets/Mark Simonson - Proxima Nova Semibold.otf');
+}
+
+body {
+  background: none repeat scroll 0 0 slategrey;
+  cursor: default;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  height: 100%;
+  line-height: 1.5;
+}
+
+.grid-pad {
+  padding: 0 20px;
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+
+.new_website{
+  margin-top: 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: normal;
+}
+
+form > p, fieldset > p {
+  margin-bottom: 0.7em;
+}
+
+p {
+  color: dimgrey;
+  font-size: 1em;
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+  padding: 0
+}
+
+.button, .button-primary {
+  background-color: #3694d6;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font: 500 16px "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  padding: 0.75em 1.25em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.15s ease-out 0s;
+}
+
+#site-content{
+ .reg-form {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 540px;
+    padding: 30px 40px;
+
+    input[type="submit"] {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-top: 15px;
+      padding: 14px;
+      width: 100%;
+    }
+
+    h2 {
+      color: #696969;
+      margin-bottom: 0.25em;
+      padding-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .text-input {
+      background: none repeat scroll 0 0 #fff;
+      border: 1px solid #d1d1d1;
+      font-size: 16px;
+      font-weight: bold;
+      padding-top: 0.6em;
+      width: 100%;
+    }
+
+    .text-input:focus {
+      border-color: #3694d6;
+    }
+  }
+}
+
+fieldset {
+  border: 0 none;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0 0 0.55em;
+}
+
+
+.text-input {
+  border: 0 none;
+  border-radius: 5px;
+  font-family: proxima-nova,sans-serif;
+  font-size: 1em;
+  line-height: inherit;
+  margin: 0;
+  outline: medium none;
+  padding: 0.5em 1em;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+#list-websites {
+  p {
+    margin: 5px 0 !important;
+  }
+}

@@ -1,0 +1,23 @@
+<div id="site-content">
+  <section class="grid grid-pad">
+    <%= form_for @website, remote: true, class: "new_website" do |f| %>
+      <fieldset class="reg-form">
+        <h2>Sign in</h2>
+        <p>
+          <%= f.label :site_url, "Your Email:" %>
+          <%= f.text_field :site_url, class: "text-input" %>
+        </p>
+
+        <div id="list-websites">
+          <% @websites.each do |website| %>
+            <p><%= website.site_url %></p>
+          <% end %>
+        </div>
+
+        <p class="sign-in-btn">
+          <%#= f.submit "Save URL", class: "button-primary" %>
+        </p>
+      </fieldset>
+    <% end %>
+  </section>
+</div><!-- #site-content -->
